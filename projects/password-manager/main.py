@@ -7,17 +7,23 @@ from pathlib import Path
 import string
 import secrets
 import json
+from tkinter import ttk
 
 root = tk.Tk()
-root.geometry("500x580")
-root.maxsize(width=500, height=580)
-root.minsize(width=500, height=580)
+root.geometry("650x600")
+root.maxsize(width=650, height=600)
+root.minsize(width=650, height=600)
 root.title("Password Manager")
-root.config(background="white")
 
 website_var = tk.StringVar()
 username_var = tk.StringVar()
 password_var = tk.StringVar()
+
+field_bg = "#f7f7f7"
+button_bg = "#f0f0f0"
+button_bg = "#f4f4f4"
+button_fg = "black"
+highlightbackground="white"
 
 # ------------------- PASSWORD GENERATOR ------------------- #
 
@@ -183,8 +189,8 @@ def search_password():
 
 # ------------------- UI SETUP ------------------- #
 
-canvas = tk.Canvas(root, width=300, height=300, bg="white", highlightthickness=0)
-canvas.pack(pady=10)
+canvas = tk.Canvas(root, width=300, height=300, bg="white")
+canvas.pack(pady=20)
 
 #Load the padlock image
 PADLOCK_IMG = Path(__file__).parent / "padlock.png"
@@ -197,7 +203,7 @@ canvas.create_image(150, 0, anchor=tk.N, image=padlock_image)
 canvas.img = padlock_image
 
 #Controls Frame
-controls_frame = Frame(root, bg="white")
+controls_frame = Frame(root)
 controls_frame.pack(side="top", fill="both", anchor="center", expand=True)
 # weight=1 ise bu demek oluyor ki o kolon esneyebilsin. o kolondan ve sağdan ne kadar boşluk varsa eşit esnesin
 # 0 olursa sabit kalsın, esnemesin.
@@ -213,42 +219,56 @@ controls_frame.grid_columnconfigure(5, weight=1) # sağ boşluk (esner)
 controls_frame.grid_columnconfigure(6, weight=1) # sağ boşluk (esner)
 
 #Website
-website_label = tk.Label(controls_frame, text="Website:", bg="white")
+website_label = tk.Label(controls_frame, text="Website:")
 website_label.grid(row=0, column=2, sticky="e", padx=5, pady=5)
-website_entry = tk.Entry(controls_frame, textvariable=website_var, width=35, bg="white")
+website_entry = tk.Entry(controls_frame, textvariable=website_var, width=35, bg=field_bg, bd=1,
+    highlightthickness=0,
+    relief="solid")
 website_entry.insert(0, "www.example.com")
 website_entry.grid(row=0, column=3)
 website_entry.focus()
 
 #Username
-username_label = tk.Label(controls_frame, text="Email/Username:", bg="white")
+username_label = tk.Label(controls_frame, text="Email/Username:")
 username_label.grid(row=1, column=2, sticky="e", padx=5, pady=5)
-username_entry = tk.Entry(controls_frame, textvariable=username_var, width=35, bg="white")
+username_entry = tk.Entry(controls_frame, textvariable=username_var, width=35, bg=field_bg, bd=1,
+    highlightthickness=0,
+    relief="solid")
 username_entry.insert(0, "name@example.com")
 username_entry.grid(row=1, column=3)
 
 #Password
-password_label = tk.Label(controls_frame, text="Password:", bg="white")
+password_label = tk.Label(controls_frame, text="Password:")
 password_label.grid(row=2, column=2, sticky="e", padx=5, pady=5)
-password_entry = tk.Entry(controls_frame, textvariable=password_var, width=35, bg="white")
+password_entry = tk.Entry(controls_frame, textvariable=password_var, width=35, bg=field_bg, bd=1,
+    highlightthickness=0,
+    relief="solid")
 password_entry.grid(row=2, column=3)
 
 #Generate button
-generate_button = tk.Button(controls_frame, text="Generate Password", command=generate_password, width= 15)
+generate_button = ttk.Button(controls_frame,
+    text="Generate Password",
+    command=generate_password,
+    width=15)
 generate_button.grid(row=1, column=4, sticky="W", padx=5, pady=5)
 
 #Add button
-add_button = tk.Button(controls_frame, text="Add Password", command=save_password, width= 15, state="disabled")
+add_button = ttk.Button(controls_frame, text="Add Password", command=save_password, width= 15, state="disabled")
 add_button.grid(row=2, column=4, sticky="W", padx=5, pady=5)
 
 #Search button
-search_button = tk.Button(controls_frame, text="Search Password", command=search_password, width= 15)
+search_button = ttk.Button(controls_frame,
+    text="Search Password",
+    command=search_password,
+    width=15)
 search_button.grid(row=0, column=4, sticky="NE", padx=5, pady=5)
 
 # Search result in Listbox
-result_label = tk.Label(controls_frame, text="Search Result:", bg="white")
+result_label = tk.Label(controls_frame, text="Search Result:")
 result_label.grid(row=4, column=2, sticky="e", padx=5, pady=5)
-result_listbox = tk.Listbox(controls_frame, bg="white", height=7, width=35)
+result_listbox = tk.Listbox(controls_frame, bg=field_bg, height=7, width=35, bd=1,
+    highlightthickness=0,
+    relief="solid")
 result_listbox.grid(row=4, column=3, padx=5, pady=5)
 
 

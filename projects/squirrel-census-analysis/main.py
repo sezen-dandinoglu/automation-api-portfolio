@@ -1,3 +1,4 @@
+
 import csv
 
 class Main:
@@ -25,6 +26,22 @@ class Main:
                 if self.temp1 == '': pass
                 else: self.temperatures.append(int(self.temp1))
             print(f"Week temperatures: {self.temperatures}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     main = Main()
