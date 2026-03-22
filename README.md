@@ -40,13 +40,24 @@ To move into a role where I can:
 
 ---
 
-## 📂 Projects (Coming Soon)
+## 📂 Projects
 
-I will be documenting:
+Here are some of the projects I have built while learning and exploring Python and AI:
 
-* Small Python projects
-* AI experiments
-* Learning notes
+### 🔐 Password Manager
+
+A simple Python-based password manager for generating and storing credentials.
+
+➡️ [View Project](./projects/password-manager)
+
+---
+
+### 🐿️ The Great Squirrel Census Data Analysis (with Pandas!)
+
+A Python project using Pandas to explore and analyze a real-world dataset.
+
+➡️ [View Project](./projects/squirrel-census-analysis)
+
 
 ---
 
