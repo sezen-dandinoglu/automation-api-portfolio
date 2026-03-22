@@ -57,7 +57,7 @@ To move into a role where I can:
 * Build slightly more advanced Python scripts
 * Combine Python + AI (small experiments)
 
-### 🚀 Later 
+### 🗓️ Later 
 
 * AI-focused projects
 * Automation tools
