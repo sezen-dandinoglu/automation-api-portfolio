@@ -38,6 +38,31 @@ To move into a role where I can:
 * Git & GitHub
 * Thinking in systems instead of tools
 
+## 🧭 Learning Roadmap (Python + AI)
+
+### 🔎 Current Focus
+
+* Rebuilding Python consistency
+* Working on small Python projects
+* Understanding how to solve problems with code
+
+### 🧠 Side Focus
+
+* Practicing prompt engineering
+* Learning how to interact effectively with AI tools
+
+### 🔜 Next
+
+* Improve existing projects (password manager, data analysis)
+* Build slightly more advanced Python scripts
+* Combine Python + AI (small experiments)
+
+### 🚀 Later 
+
+* AI-focused projects
+* Automation tools
+* Real-world problem solving with AI
+
 ---
 
 ## 📂 Projects
