@@ -51,7 +51,11 @@ I will be documenting:
 
 * IT Operations & Application Support
 * Incident Management
-* Production system troubleshooting (finance sector)
+* Production system troubleshooting across multiple industries:
+  * Finance
+  * Insurance
+  * Government
+  * Private sector (including delivery/logistics systems)
 
 ---
 
