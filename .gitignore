@@ -1,1 +1,6 @@
+
+projects/password-manager/passwords.json
+projects/password-manager/passwords.txt
 .DS_Store
+.venv/
+scratch/
