@@ -69,6 +69,15 @@ To move into a role where I can:
 
 Here are some of the projects I have built while learning and exploring Python and AI:
 
+### 📡 API Monitor Lite
+A Python tool that checks multiple API endpoints, reports response time, status codes, and handles common request failures.
+
+**Skills:** Python, requests, API troubleshooting, JSON parsing, error handling
+
+➡️ [View Project](./projects/api-monitor-lite)
+
+---
+
 ### 🔐 Password Manager
 
 A simple Python-based password manager for generating and storing credentials.
