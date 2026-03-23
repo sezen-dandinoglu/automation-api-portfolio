@@ -1,3 +1,5 @@
+###API Monitor Lite - checks multiple endpoints and prints status, response time, and a response preview.###
+
 import requests
 import time
 
