@@ -1,30 +1,39 @@
 # API Monitor Lite
 
-A simple Python project that checks multiple API endpoints and prints:
+A lightweight Python tool that checks multiple API endpoints and reports:
 
 - HTTP status code
 - response time
-- a short JSON response preview
-- clear error messages for timeout, connection, and HTTP errors
+- JSON response preview
+- common request errors such as timeout, connection, and HTTP errors
 
-## Why I built this
+## Project goal
 
-I created this mini project to practice:
+I built this project to practice API troubleshooting in a practical way and to strengthen skills relevant to technical support and production systems work.
 
-- working with APIs in Python
-- handling request errors properly
-- reading JSON responses
-- building a small troubleshooting-oriented tool similar to real support/operations tasks
+The focus of the project is not only sending requests, but also handling failures clearly and presenting useful diagnostic output.
 
-## Technologies
+## Features
+
+- Checks multiple API endpoints
+- Measures response time
+- Displays status code and status text
+- Parses JSON responses safely
+- Handles:
+  - connection errors
+  - timeouts
+  - HTTP errors
+  - non-JSON responses
+
+## Tech stack
 
 - Python
 - requests
 
-## Project structure
+## How to run
 
-```text
-api-monitor-lite/
-├── main.py
-├── requirements.txt
-└── README.md
+### 1. Create and activate a virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
