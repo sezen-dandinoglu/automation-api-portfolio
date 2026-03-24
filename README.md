@@ -78,6 +78,15 @@ A Python tool that checks multiple API endpoints, reports response time, status 
 
 ---
 
+### 🔎 Log Analyzer Lite
+A Python tool that analyzes log files and counts ERROR, WARNING, and INFO messages.
+
+**Skills:** Python, file handling, log parsing, troubleshooting
+
+➡️ [View Project](./projects/log-analyzerr-lite)
+
+---
+
 ### 🔐 Password Manager
 
 A simple Python-based password manager for generating and storing credentials.
