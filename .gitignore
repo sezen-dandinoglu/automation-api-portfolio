@@ -1,6 +1,7 @@
 
 projects/password-manager/passwords.json
 projects/password-manager/passwords.txt
+projects/api-monitor-lite/api_log.txt
 .DS_Store
 .venv/
 scratch/
