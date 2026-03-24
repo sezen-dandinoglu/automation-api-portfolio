@@ -1,0 +1,1 @@
+Note: The sample log file contains synthetic data created for demonstration purposes.
