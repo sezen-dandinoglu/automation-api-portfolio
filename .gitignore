@@ -5,3 +5,4 @@ projects/api-monitor-lite/api_log.txt
 .DS_Store
 .venv/
 scratch/
+projects/log-analyzer-lite/analyze_result.txt
