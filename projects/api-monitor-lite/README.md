@@ -34,13 +34,18 @@ The focus of the project is not only sending requests, but also handling failure
 
 ### 1. Create and activate a virtual environment
 
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 
 ### 2. Install dependencies
+
+```bash
 python3 -m pip install -r requirements.txt
 
 ### 3. Run the script
+
+```bash
 python3 main.py
 
 ### Example output
