@@ -31,11 +31,11 @@ This project was built to practice:
 
 ## How to run
 
-bash
+```bash
 cd projects/log-analyzer-lite
 python3 main.py
 
-Example output
+**## Example output**
 
 Log Summary
 --------------------
