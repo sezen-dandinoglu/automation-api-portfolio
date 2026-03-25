@@ -35,7 +35,7 @@ This project was built to practice:
 cd projects/log-analyzer-lite
 python3 main.py
 
-**## Example output**
+## Example output
 
 Log Summary
 --------------------
