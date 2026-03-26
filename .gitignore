@@ -6,3 +6,4 @@ projects/api-monitor-lite/api_log.txt
 .venv/
 scratch/
 projects/log-analyzer-lite/analyze_result.txt
+result.txt
