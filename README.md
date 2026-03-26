@@ -1,5 +1,7 @@
 # career-change-portfolio
 
+https://sezen-dandinoglu.github.io/career-change-portfolio/
+
 My journey into AI, data, and building a new career path
 
 > ⚡️ Transitioning from production systems to AI by focusing on real problem solving, not just tools.
