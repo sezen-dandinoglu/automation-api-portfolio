@@ -76,7 +76,7 @@ A Python tool that checks multiple API endpoints, reports response time, status 
 
 **Skills:** Python, requests, API troubleshooting, JSON parsing, error handling
 
-➡️ [View Project](./projects/api-monitor-lite)
+➡️ [View Project](https://github.com/sezen-dandinoglu/api-monitor-lite.git)
 
 ---
 
@@ -85,7 +85,7 @@ A Python tool that analyzes log files and counts ERROR, WARNING, and INFO messag
 
 **Skills:** Python, file handling, log parsing, troubleshooting
 
-➡️ [View Project](./projects/log-analyzerr-lite)
+➡️ [View Project](https://github.com/sezen-dandinoglu/log-analyzer-lite.git)
 
 ---
 
@@ -93,7 +93,7 @@ A Python tool that analyzes log files and counts ERROR, WARNING, and INFO messag
 
 A simple Python-based password manager for generating and storing credentials.
 
-➡️ [View Project](./projects/password-manager)
+➡️ [View Project](https://github.com/sezen-dandinoglu/password-manager.git)
 
 ---
 
@@ -101,8 +101,15 @@ A simple Python-based password manager for generating and storing credentials.
 
 A Python project using Pandas to explore and analyze a real-world dataset.
 
-➡️ [View Project](./projects/squirrel-census-analysis)
+➡️ [View Project](https://github.com/sezen-dandinoglu/squirrel-census-analysis.git)
 
+---
+
+### 🌧️ Weather Rain Alert
+
+Checks if it will rain in the next 12 hours using a weather API.
+
+➡️ [View Project](https://github.com/sezen-dandinoglu/weather-rain-alert.git)
 
 ---
 
