@@ -1,141 +1,81 @@
-# career-change-portfolio
+# Automation & API Projects
 
-https://sezen-dandinoglu.github.io/career-change-portfolio/
+This repository contains a collection of hands-on projects focused on **automation, API development, and data processing using Python**.
 
-My journey into AI, data, and building a new career path
-
-> ⚡️ Transitioning from production systems to AI by focusing on real problem solving, not just tools.
-
-# 🚀 Career Change Journey: From IT Operations to AI
-
-Hi, I'm Sezen.
-
-I'm currently transitioning my career towards Artificial Intelligence.
-
-With a background in IT Operations and Application Support in financial systems, I have spent years working on real-world production issues, system behaviour, and problem solving.
-
-Now, I am focusing on building skills in:
-
-* Python (beginner level)
-* Artificial Intelligence fundamentals
-* Automation
-* Problem solving with technology
+The goal of these projects is to strengthen practical backend skills while building real, working solutions.
 
 ---
 
-## 🎯 Goal
+## 🚀 Projects
 
-To move into a role where I can:
+### 1. Cafe Management API (Live)
 
-* Solve real problems using AI
-* Build simple but meaningful tools
-* Continuously learn and improve
+* Built with **FastAPI, SQLAlchemy, and SQLite**
+* Implements full **CRUD operations**
+* Includes **data validation (Pydantic)** and **error handling**
+* Designed with a simple layered structure (API → service → database)
 
----
-
-## 🧠 What I'm Learning
-
-* Python (currently learning, building consistency again)
-* AI basics
-* Git & GitHub
-* Thinking in systems instead of tools
-
-## 🧭 Learning Roadmap (Python + AI)
-
-### 🔎 Current Focus
-
-* Rebuilding Python consistency
-* Working on small Python projects
-* Understanding how to solve problems with code
-
-### 🧠 Side Focus
-
-* Practicing prompt engineering
-* Learning how to interact effectively with AI tools
-
-### 🔜 Next
-
-* Improve existing projects (password manager, data analysis)
-* Build slightly more advanced Python scripts
-* Combine Python + AI (small experiments)
-
-### 🗓️ Later 
-
-* AI-focused projects
-* Automation tools
-* Real-world problem solving with AI
+🔗 Live Demo:
+https://cafe-api-db.onrender.com/docs
 
 ---
 
-## 📂 Projects
+### 2. Book API Mini (Live)
 
-Here are some of the projects I have built while learning and exploring Python and AI:
+* Lightweight REST API using **FastAPI**
+* JSON-based data storage
+* Focused on reinforcing **API design fundamentals**
+* Includes request/response validation with Pydantic
 
-### 📡 API Monitor Lite
-A Python tool that checks multiple API endpoints, reports response time, status codes, and handles common request failures.
-
-**Skills:** Python, requests, API troubleshooting, JSON parsing, error handling
-
-➡️ [View Project](https://github.com/sezen-dandinoglu/api-monitor-lite.git)
-
----
-
-### 🔎 Log Analyzer Lite
-A Python tool that analyzes log files and counts ERROR, WARNING, and INFO messages.
-
-**Skills:** Python, file handling, log parsing, troubleshooting
-
-➡️ [View Project](https://github.com/sezen-dandinoglu/log-analyzer-lite.git)
+🔗 Live Demo:
+https://book-api-mini.onrender.com/docs
 
 ---
 
-### 🔐 Password Manager
+### 3. Exchange Rate CLI Tool
 
-A simple Python-based password manager for generating and storing credentials.
+* Python-based command-line tool
+* Fetches real-time exchange rates from external APIs
+* Focused on **API consumption and data parsing**
 
-➡️ [View Project](https://github.com/sezen-dandinoglu/password-manager.git)
+▶️ Example usage:
 
----
-
-### 🐿️ The Great Squirrel Census Data Analysis (with Pandas!)
-
-A Python project using Pandas to explore and analyze a real-world dataset.
-
-➡️ [View Project](https://github.com/sezen-dandinoglu/squirrel-census-analysis.git)
+```bash
+python main.py --base USD
+```
 
 ---
 
-### 🌧️ Weather Rain Alert
+## 🧠 Key Concepts Practiced
 
-Checks if it will rain in the next 12 hours using a weather API.
-
-➡️ [View Project](https://github.com/sezen-dandinoglu/weather-rain-alert.git)
-
----
-
-## 🛠 Background
-
-* IT Operations & Application Support
-* Incident Management
-* Production system troubleshooting across multiple industries:
-  * Finance
-  * Insurance
-  * Government
-  * Private sector (including delivery/logistics systems)
+* REST API development (FastAPI)
+* Database modeling and ORM (SQLAlchemy)
+* Data validation (Pydantic)
+* CRUD operations
+* API integration (external services)
+* Basic automation and scripting
+* JSON data handling
 
 ---
 
-## 📈 Progress Log
+## 🛠️ Tech Stack
 
-This repository reflects my real learning journey — including challenges, restarts, and progress.
+* Python
+* FastAPI
+* SQLAlchemy
+* SQLite
+* Pydantic
+* Requests / BeautifulSoup
 
 ---
 
-## 🤝 Let's Connect
+## 📌 Notes
 
-🔗 [www.linkedin.com/in/sezendandinoglu](http://www.linkedin.com/in/sezendandinoglu)
+These projects are part of an ongoing effort to expand capabilities towards **automation, backend development, and data pipelines**, alongside a professional background in enterprise system engineering.
 
 ---
 
-⭐ This is not a finished profile. It is a live transformation.
+## 📬 Contact
 
+Feel free to connect via LinkedIn:
+https://linkedin.com/in/sezendandinoglu
